@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_host"
+    app:startDestination="@id/drawerHome">
+
+    <fragment
+        android:id="@+id/drawerFavorite"
+        tools:layout="@layout/fragment_favorite"
+        android:name="nam.vuthanh.myapplication.kotlin.fragments.FavoriteFM"
+        android:label="FavoriteFM" />
+    <fragment
+        android:id="@+id/drawerProfile"
+        tools:layout="@layout/fragment_profile"
+        android:name="nam.vuthanh.myapplication.kotlin.fragments.ProfileFM"
+        android:label="ProfileFM" />
+    <fragment
+        android:id="@+id/drawerHome"
+        tools:layout="@layout/fragment_home"
+        android:name="nam.vuthanh.myapplication.kotlin.fragments.HomeFM"
+        android:label="HomeFM" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="nam.vuthanh.myapplication.kotlin.DrawerLayoutActivity"
+        android:label="MainActivity" />
+</navigation>

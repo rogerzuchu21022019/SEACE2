@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/drawerHome"
+            android:icon="@drawable/add"
+            android:title="Home Fragment" />
+        <item
+            android:id="@+id/drawerFavorite"
+            android:icon="@drawable/add"
+            android:title="Favorite Fragment" />
+        <item
+            android:id="@+id/drawerProfile"
+            android:icon="@drawable/add"
+            android:title="Profile Fragment" />
+</menu>
